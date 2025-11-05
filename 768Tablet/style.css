@@ -12,6 +12,30 @@
   background-color: black;
 }
 
+.urls1 {
+  background-image: url(./airpod.png);
+}
+
+.urls2 {
+  background-image: url(./watch.png);
+}
+
+.urls3 {
+  background-image: url(./macbook.png);
+}
+
+.urls4 {
+  background-image: url(./small.png);
+}
+
+.urls5 {
+  background-image: url(./deals.png);
+}
+
+.urls6 {
+  background-image: url(./trade.png);
+}
+
 .tablet {
   display: flex;
   flex-direction: column;
@@ -384,10 +408,6 @@
   left: 63px;
 }
 
-.urls1 {
-  background-image: url(./airpod.png);
-}
-
 .frame241 {
   display: flex;
   flex-direction: column;
@@ -399,7 +419,8 @@
 .texts1 {
   display: flex;
   justify-content: center;
-  width: 200px;
+  text-align: center;
+  width: 400px;
   height: 36px;
   font-family: "inter";
   font-weight: 700;
@@ -415,12 +436,11 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  width: 241px;
+  width: 285px;
   font-family: "inter";
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
-  color: white;
 }
 
 .textscolor2 {
@@ -436,10 +456,6 @@
 .links {
   width: 366px;
   height: 490px;
-}
-
-.urls2 {
-  background-image: url(./watch.png);
 }
 
 .frame242 {
@@ -486,4 +502,73 @@
 
 .urls3 {
   background-image: url(./macbook.png);
+}
+
+.texts3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 257px;
+  height: 72px;
+  font-family: "inter";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.deals {
+  display: flex;
+  width: 150px;
+  height: 44px;
+  padding: 12px 20px;
+  gap: 10px;
+  border-radius: 999px;
+  background-color: #0071e3;
+}
+
+.estimate {
+  display: flex;
+  width: 170px;
+  height: 44px;
+  padding: 12px 20px;
+  gap: 10px;
+  border-radius: 999px;
+  margin-top: 16px;
+  background-color: #0071e3;
+}
+
+.scroll {
+  display: flex;
+  width: 768px;
+  height: 368px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.frame38 {
+  display: flex;
+  position: absolute;
+  width: 7034px;
+  height: 368px;
+  left: -705px;
+  gap: 16px;
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.frame28 {
+  width: 638px;
+  height: 368px;
+}
+
+.linkm {
+  width: 638px;
+  height: 368px;
+  opacity: 29%;
+  background-image: url(./movie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
