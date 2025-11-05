@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.black {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.tablet {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 768px;
+  height: 4274px;
+  gap: 12px;
+}
+
+.navglobal {
+  position: relative;
+  width: 768px;
+  height: 48px;
+  filter: blur(20);
+}
+
+.overlay {
+  display: flex;
+  width: 768px;
+  height: 48px;
+  background-color: #f5f5f7;
+  opacity: 80%;
+}
+
+.buttonmenu {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 720px;
+  opacity: 80%;
+}
+
+.svg1 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 15px;
+  left: 15px;
+}
+
+.breadtop {
+  position: absolute;
+  width: 14px;
+  top: 5px;
+  left: 2px;
+  border-top: 1.2px solid black;
+}
+
+.breadbottom {
+  position: absolute;
+  width: 14px;
+  top: 12px;
+  left: 2px;
+  border-top: 1.2px solid black;
+}
+
+.buttonsearch {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 624px;
+}
+
+.svg2 {
+  position: absolute;
+  width: 17px;
+  height: 48px;
+  left: 15.5px;
+}
+
+.search {
+  position: absolute;
+  width: 16.05px;
+  height: 16.03px;
+  top: 15.46px;
+  left: 0.45px;
+}
+
+.buttonlogo {
+  width: 49px;
+  height: 48px;
+}
+
+.svg3 {
+  position: absolute;
+  width: 18px;
+  height: 48px;
+  left: 16px;
+}
+
+.apple {
+  position: absolute;
+  width: 16px;
+  height: 19px;
+  top: 14px;
+  left: 1px;
+}
+
+.item {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 672px;
+}
+
+.buttonshop {
+  width: 48px;
+  height: 48px;
+}
+
+.svg4 {
+  position: absolute;
+  width: 17px;
+  height: 48px;
+  left: 15.5px;
+}
+
+.shop {
+  position: absolute;
+  width: 15.12px;
+  height: 17.6px;
+  top: 13.45px;
+  left: 0.94px;
+}
+
+.section {
+  display: flex;
+  width: 768px;
+  height: 48px;
+  background-color: #ffffff;
+}
+
+.frame20 {
+  display: flex;
+  width: 768px;
+  height: 48px;
+  padding: 16px 10px;
+  gap: 10px;
+}
+
+.frame19 {
+  display: flex;
+  justify-content: center;
+  width: 768px;
+  height: 16px;
+  gap: 4px;
+}
+
+.were {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 444px;
+  height: 16px;
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1d1d1f;
+}
+
+.mainsection {
+  display: flex;
+  flex-direction: column;
+  width: 768px;
+  height: 3480px;
+  gap: 12px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 768px;
+  height: 1974px;
+  gap: 12px;
+}
+
+.background {
+  position: relative;
+  width: 768px;
+  height: 650px;
+  background-color: #f5f5f7;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.url1 {
+  background-image: url(./16pro.png);
+}
+
+.frame1 {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 405px;
+  height: 75px;
+  top: 56px;
+  left: 182px;
+  gap: 16px;
+}
+
+.frame2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 405px;
+  height: 96px;
+  gap: 4px;
+}
+
+.main1 {
+  display: flex;
+  justify-content: center;
+  width: 405px;
+  height: 60px;
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 60px;
+  color: white;
+}
+
+.main2 {
+  display: flex;
+  justify-content: center;
+  height: 405px;
+  height: 32px;
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 44px;
+  gap: 16px;
+}
+
+.learnmore {
+  display: flex;
+  width: 123px;
+  height: 44px;
+  padding: 12px 20px;
+  gap: 10px;
+  border-radius: 999px;
+  background-color: #0071e3;
+}
+
+.colorl {
+  background-color: white;
+}
+
+.color1 {
+  color: white;
+}
+
+.learn {
+  display: flex;
+  width: 60000000px;
+  height: 20px;
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.37px;
+}
+
+.buybutton {
+  display: flex;
+  width: 68px;
+  height: 44px;
+  padding: 12px 20px;
+  gap: 10px;
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+}
+
+.colorb {
+  border-color: white;
+}
+
+.color2 {
+  color: white;
+}
+
+.color3 {
+  color: #2997ff;
+}
+
+.buy {
+  display: flex;
+  width: 28px;
+  height: 20px;
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.37px;
+}
+
+.link {
+  width: 768px;
+  height: 650px;
+}
+
+.url2 {
+  background-image: url(./16.png);
+}
+
+.url3 {
+  background-image: url(./ipad.png);
+}
+
+.ipadair {
+  width: 405px;
+  height: 39px;
+}
+
+.ipad {
+  background-image: url(./ipadair.png);
+  background-repeat: no-repeat;
+  height: 39px;
+  width: 170px;
+}
+
+.colortext {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 238px;
+  height: 24px;
+  top: 584px;
+  left: 265px;
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 20px;
+  background: linear-gradient(to right, #0090f7, #ba62fc, #f2416b, #f55600);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.frame27 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 768px;
+  gap: 12px;
+}
+
+.backgrounds {
+  position: relative;
+  width: 366px;
+  height: 490px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.frame24 {
+  display: flex;
+  flex-direction: column;
+  width: 241px;
+  height: 161px;
+  gap: 16px;
+  position: absolute;
+  top: 287px;
+  left: 63px;
+}
+
+.urls1 {
+  background-image: url(./airpod.png);
+}
+
+.frame241 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 241px;
+  gap: 4px;
+}
+
+.texts1 {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 36px;
+  font-family: "inter";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.textscolor1 {
+  color: white;
+}
+
+.texts2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 241px;
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: white;
+}
+
+.textscolor2 {
+  color: white;
+  height: 69px;
+}
+
+.textscolor3 {
+  color: black;
+  height: 25px;
+}
+
+.links {
+  width: 366px;
+  height: 490px;
+}
+
+.urls2 {
+  background-image: url(./watch.png);
+}
+
+.frame242 {
+  display: flex;
+  flex-direction: column;
+  width: 241px;
+  height: 161px;
+  gap: 16px;
+  position: absolute;
+  top: 45px;
+  left: 63px;
+}
+
+.frame4 {
+  display: flex;
+  flex-direction: column;
+  width: 152px;
+  height: 54px;
+  gap: 4px;
+}
+
+.frame3 {
+  display: flex;
+  width: 152px;
+  height: 34px;
+  gap: 4px;
+}
+
+.watchlogo {
+  width: 22px;
+  height: 27px;
+}
+
+.series {
+  text-align: center;
+  width: 152px;
+  height: 16px;
+  font-family: "inter";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 2px;
+}
+
+.urls3 {
+  background-image: url(./macbook.png);
+}

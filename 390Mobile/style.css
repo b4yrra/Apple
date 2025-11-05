@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mobile {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  height: 5524px;
+  gap: 12px;
+  background-color: #ffffff;
+}
+
+.frame45 {
+  width: 390px;
+  height: 121px;
+}
